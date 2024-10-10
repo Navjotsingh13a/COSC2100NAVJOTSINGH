@@ -1,0 +1,8 @@
+C:\Users\jotsa\source\repos\TicTacToe\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\jotsa\source\repos\TicTacToe\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\jotsa\source\repos\TicTacToe\obj\Debug\net8.0-windows\TicTacToe_MarkupCompile.cache
+C:\Users\jotsa\source\repos\TicTacToe\obj\Debug\net8.0-windows\TicTacToe_MarkupCompile.lref
+C:\Users\jotsa\Source\Repos\COSC2100NAVJOT\TicTacToe\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\jotsa\Source\Repos\COSC2100NAVJOT\TicTacToe\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\jotsa\Source\Repos\COSC2100NAVJOT\TicTacToe\obj\Debug\net8.0-windows\TicTacToe_MarkupCompile.cache
+C:\Users\jotsa\Source\Repos\COSC2100NAVJOT\TicTacToe\obj\Debug\net8.0-windows\TicTacToe_MarkupCompile.lref
