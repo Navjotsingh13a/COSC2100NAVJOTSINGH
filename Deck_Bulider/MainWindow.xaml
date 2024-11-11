@@ -1,0 +1,45 @@
+﻿<Window x:Class="Deck_Bulider.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Deck_Bulider"
+        mc:Ignorable="d"
+        Title="DECK BUILDER" Height="450" Width="800">
+    <Grid>
+        <!-- TextBoxs for entering Suit and Rank... -->
+        <TextBox x:Name="SuitTextBox" Width="100" Height="25" Margin="106,70,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"
+                       TabIndex="6" ToolTip="Enter the suit of the card"/>
+        <TextBox x:Name="RankTextBox" Width="100" Height="25" Margin="106,110,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"
+                       TabIndex="7" ToolTip="Enter the rank of the card"/>
+
+        <!-- TextBox for entering the number of cards to draw... -->
+        <TextBox x:Name="DrawTextBox" Width="100" Height="25" Margin="106,170,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"
+                       ToolTip="Enter the number of cards to deal"/>
+
+        <!-- ListBoxs to display the deck of cards and cards dealt... -->
+        <ListBox x:Name="DeckListView" Width="200" Height="340" Margin="400,52,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <ListBox x:Name="CardsDealtListView" Width="226" Height="129" Margin="86,263,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+
+        <!-- Buttons to add a custom card, view the deck, shuffle the deck, reset the deck, exit the application... -->
+        <Button x:Name="AddCustomButton" Content="_Add Custom" Width="100" Height="47" Margin="246,72,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="AddCustomButton_Click"
+                     ToolTip="Add a custom card to the deck"/>
+        <Button x:Name="DealButton" Content="_Deal" Width="100" Height="47" Margin="246,170,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="DealButton_Click"
+                     ToolTip="Deal the selected number of cards"/>
+        <Button x:Name="ViewDeckButton" Content="View Deck" Width="100" Height="25" Margin="621,52,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ViewDeckButton_Click" />
+        <Button x:Name="ShuffleButton" Content="_Shuffle" Width="100" Height="26" Margin="621,122,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ShuffleButton_Click"
+                     ToolTip="Shuffle the deck of cards"/>
+        <Button x:Name="ResetButton" Content="_Reset" Width="100" Height="24" Margin="621,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Click="ResetButton_Click"
+                      ToolTip="Reset the deck to its default state"/>
+        <Button x:Name="ExitButton" Content="_Exit" Width="100" Height="25" Margin="621,282,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="ExitButton_Click"
+                     ToolTip="Exit the application"/>
+
+        <!-- Label for the Card, Suit, Rank, Draw, Card Dealt and Deck...  -->
+        <Label Content="Card" HorizontalAlignment="Left" Margin="30,32,0,0" VerticalAlignment="Top" Background="{x:Null}" Width="68" Height="34" FontSize="14"/>
+        <Label Content="Suit" HorizontalAlignment="Left" Margin="42,66,0,0" VerticalAlignment="Top" Width="45" FontSize="14"/>
+        <Label Content="Rank" HorizontalAlignment="Left" Margin="42,106,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Draw" HorizontalAlignment="Left" Margin="40,170,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.711,-3.542" FontSize="14"/>
+        <Label Content="Card Dealt" HorizontalAlignment="Left" Margin="156,229,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Deck" HorizontalAlignment="Left" Margin="462,21,0,0" VerticalAlignment="Top" FontSize="14"/>
+    </Grid>
+</Window>

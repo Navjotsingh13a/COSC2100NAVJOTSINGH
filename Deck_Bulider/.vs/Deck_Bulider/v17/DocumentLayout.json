@@ -1,0 +1,145 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jotsa\\source\\repos\\Deck_Bulider\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4E6C92-2ECC-490C-AD33-93600C46DC61}|Deck_Bulider.csproj|c:\\users\\jotsa\\source\\repos\\deck_bulider\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0B4E6C92-2ECC-490C-AD33-93600C46DC61}|Deck_Bulider.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4E6C92-2ECC-490C-AD33-93600C46DC61}|Deck_Bulider.csproj|c:\\users\\jotsa\\source\\repos\\deck_bulider\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4E6C92-2ECC-490C-AD33-93600C46DC61}|Deck_Bulider.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4E6C92-2ECC-490C-AD33-93600C46DC61}|Deck_Bulider.csproj|c:\\users\\jotsa\\source\\repos\\deck_bulider\\customdeck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4E6C92-2ECC-490C-AD33-93600C46DC61}|Deck_Bulider.csproj|solutionrelative:customdeck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4E6C92-2ECC-490C-AD33-93600C46DC61}|Deck_Bulider.csproj|c:\\users\\jotsa\\source\\repos\\deck_bulider\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4E6C92-2ECC-490C-AD33-93600C46DC61}|Deck_Bulider.csproj|solutionrelative:deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4E6C92-2ECC-490C-AD33-93600C46DC61}|Deck_Bulider.csproj|c:\\users\\jotsa\\source\\repos\\deck_bulider\\standarddeck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4E6C92-2ECC-490C-AD33-93600C46DC61}|Deck_Bulider.csproj|solutionrelative:standarddeck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4E6C92-2ECC-490C-AD33-93600C46DC61}|Deck_Bulider.csproj|c:\\users\\jotsa\\source\\repos\\deck_bulider\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4E6C92-2ECC-490C-AD33-93600C46DC61}|Deck_Bulider.csproj|solutionrelative:card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4E6C92-2ECC-490C-AD33-93600C46DC61}|Deck_Bulider.csproj|c:\\users\\jotsa\\source\\repos\\deck_bulider\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0B4E6C92-2ECC-490C-AD33-93600C46DC61}|Deck_Bulider.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\Users\\jotsa\\source\\repos\\Deck_Bulider\\Card.cs",
+              "RelativeDocumentMoniker": "Card.cs",
+              "ToolTip": "C:\\Users\\jotsa\\source\\repos\\Deck_Bulider\\Card.cs",
+              "RelativeToolTip": "Card.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T17:44:45.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StandardDeck.cs",
+              "DocumentMoniker": "C:\\Users\\jotsa\\source\\repos\\Deck_Bulider\\StandardDeck.cs",
+              "RelativeDocumentMoniker": "StandardDeck.cs",
+              "ToolTip": "C:\\Users\\jotsa\\source\\repos\\Deck_Bulider\\StandardDeck.cs",
+              "RelativeToolTip": "StandardDeck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T17:46:15.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Deck.cs",
+              "DocumentMoniker": "C:\\Users\\jotsa\\source\\repos\\Deck_Bulider\\Deck.cs",
+              "RelativeDocumentMoniker": "Deck.cs",
+              "ToolTip": "C:\\Users\\jotsa\\source\\repos\\Deck_Bulider\\Deck.cs",
+              "RelativeToolTip": "Deck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T18:32:29.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\jotsa\\source\\repos\\Deck_Bulider\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\jotsa\\source\\repos\\Deck_Bulider\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T17:59:18.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomDeck.cs",
+              "DocumentMoniker": "C:\\Users\\jotsa\\source\\repos\\Deck_Bulider\\CustomDeck.cs",
+              "RelativeDocumentMoniker": "CustomDeck.cs",
+              "ToolTip": "C:\\Users\\jotsa\\source\\repos\\Deck_Bulider\\CustomDeck.cs",
+              "RelativeToolTip": "CustomDeck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T17:47:37.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\jotsa\\source\\repos\\Deck_Bulider\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\jotsa\\source\\repos\\Deck_Bulider\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T17:41:59.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jotsa\\source\\repos\\Deck_Bulider\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\jotsa\\source\\repos\\Deck_Bulider\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T17:41:51.651Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
