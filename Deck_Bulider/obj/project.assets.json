@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jotsa\\source\\repos\\Deck_Bulider\\Deck_Bulider.csproj",
+      "projectUniqueName": "C:\\Users\\jotsa\\source\\repos\\COSC2100NAVJOTSINGH\\COSC2100NAVJOT\\Deck_Bulider\\Deck_Bulider.csproj",
       "projectName": "Deck_Bulider",
-      "projectPath": "C:\\Users\\jotsa\\source\\repos\\Deck_Bulider\\Deck_Bulider.csproj",
+      "projectPath": "C:\\Users\\jotsa\\source\\repos\\COSC2100NAVJOTSINGH\\COSC2100NAVJOT\\Deck_Bulider\\Deck_Bulider.csproj",
       "packagesPath": "C:\\Users\\jotsa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jotsa\\source\\repos\\Deck_Bulider\\obj\\",
+      "outputPath": "C:\\Users\\jotsa\\source\\repos\\COSC2100NAVJOTSINGH\\COSC2100NAVJOT\\Deck_Bulider\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

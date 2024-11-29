@@ -1,0 +1,8 @@
+C:\Users\jotsa\source\repos\DeckBuilder\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\jotsa\source\repos\DeckBuilder\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\jotsa\source\repos\DeckBuilder\obj\Debug\net8.0-windows\Advanced_DeckBuilder_MarkupCompile.cache
+C:\Users\jotsa\source\repos\DeckBuilder\obj\Debug\net8.0-windows\Advanced_DeckBuilder_MarkupCompile.lref
+C:\Users\jotsa\source\repos\Advanced_DeckBuilder\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\jotsa\source\repos\Advanced_DeckBuilder\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\jotsa\source\repos\Advanced_DeckBuilder\obj\Debug\net8.0-windows\Advanced_DeckBuilder_MarkupCompile.cache
+C:\Users\jotsa\source\repos\Advanced_DeckBuilder\obj\Debug\net8.0-windows\Advanced_DeckBuilder_MarkupCompile.lref
