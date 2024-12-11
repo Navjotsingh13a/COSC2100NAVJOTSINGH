@@ -56,10 +56,24 @@ namespace WebBrowserApp
                 WebBrowserControl.GoBack();
         }
 
+        // Forward Button: Go forward to next page...
+        private void ForwardButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (WebBrowserControl.CanGoForward)
+                WebBrowserControl.GoForward();
+        }
+
+
         // Refresh button: Reload the current page...
         private void RefreshButton_Click(object sender, RoutedEventArgs e)
         {
             WebBrowserControl.Refresh();
+        }
+
+        // Stop Button: Stop loading the current page...
+        private void StopButton_Click(object sender, RoutedEventArgs e)
+        {
+            WebBrowserControl.InvokeScript("execScript", new object[] { "window.stop();" });
         }
 
         // Home button: Navigate to the home page...

@@ -5,13 +5,15 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WebBrowserApp"
       mc:Ignorable="d"
-      Title="Web Browser App" Width="869" Height="439">
+      Title="Web Browser App" Width="992" Height="439">
     <Grid>
         <!-- StackPanel to hold the browser controls like Back, Refresh, Home, 
              Address Bar, Go Button, and Add Bookmark Button... -->
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="10">
             <Button x:Name="BackButton" Content="Back" Width="60" Height="30" Click="BackButton_Click"/>
+            <Button x:Name="ForwardButton" Content="Forward" Width="60" Height="30" Click="ForwardButton_Click"/>
             <Button x:Name="RefreshButton" Content="Refresh" Width="60" Height="30" Click="RefreshButton_Click"/>
+            <Button x:Name="StopButton" Content="Stop" Width="60" Height="30" Click="StopButton_Click"/>
             <Button x:Name="HomeButton" Content="Home" Width="60" Height="30" Click="HomeButton_Click"/>
             <TextBox x:Name="AddressBar" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="30" Width="500" Margin="10,0,0,0" KeyDown="AddressBar_KeyDown"/>
             <Button Content="Go" Width="60" Height="30" Click="GoButton_Click"/>
