@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jotsa\\source\\repos\\WebBrowserApp\\",
+  "WorkspaceRootPath": "C:\\Users\\jotsa\\source\\repos\\COSC2100NAVJOTSINGH\\COSC2100NAVJOT\\WebBrowserApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2137B7E2-2E0F-44C9-B88F-82CC1C18E1B9}|WebBrowserApp.csproj|c:\\users\\jotsa\\source\\repos\\webbrowserapp\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2137B7E2-2E0F-44C9-B88F-82CC1C18E1B9}|WebBrowserApp.csproj|C:\\Users\\jotsa\\source\\repos\\COSC2100NAVJOTSINGH\\COSC2100NAVJOT\\WebBrowserApp\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2137B7E2-2E0F-44C9-B88F-82CC1C18E1B9}|WebBrowserApp.csproj|solutionrelative:page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2137B7E2-2E0F-44C9-B88F-82CC1C18E1B9}|WebBrowserApp.csproj|c:\\users\\jotsa\\source\\repos\\webbrowserapp\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{2137B7E2-2E0F-44C9-B88F-82CC1C18E1B9}|WebBrowserApp.csproj|c:\\users\\jotsa\\source\\repos\\cosc2100navjotsingh\\cosc2100navjot\\webbrowserapp\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2137B7E2-2E0F-44C9-B88F-82CC1C18E1B9}|WebBrowserApp.csproj|solutionrelative:page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -32,10 +32,10 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Page1.xaml",
-              "DocumentMoniker": "C:\\Users\\jotsa\\source\\repos\\WebBrowserApp\\Page1.xaml",
+              "DocumentMoniker": "C:\\Users\\jotsa\\source\\repos\\COSC2100NAVJOTSINGH\\COSC2100NAVJOT\\WebBrowserApp\\Page1.xaml",
               "RelativeDocumentMoniker": "Page1.xaml",
-              "ToolTip": "C:\\Users\\jotsa\\source\\repos\\WebBrowserApp\\Page1.xaml",
-              "RelativeToolTip": "Page1.xaml",
+              "ToolTip": "C:\\Users\\jotsa\\source\\repos\\COSC2100NAVJOTSINGH\\COSC2100NAVJOT\\WebBrowserApp\\Page1.xaml*",
+              "RelativeToolTip": "Page1.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-11T17:17:35.342Z",
               "EditorCaption": ""
@@ -44,11 +44,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Page1.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\jotsa\\source\\repos\\WebBrowserApp\\Page1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jotsa\\source\\repos\\COSC2100NAVJOTSINGH\\COSC2100NAVJOT\\WebBrowserApp\\Page1.xaml.cs",
               "RelativeDocumentMoniker": "Page1.xaml.cs",
-              "ToolTip": "C:\\Users\\jotsa\\source\\repos\\WebBrowserApp\\Page1.xaml.cs",
-              "RelativeToolTip": "Page1.xaml.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAswI0AAABFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jotsa\\source\\repos\\COSC2100NAVJOTSINGH\\COSC2100NAVJOT\\WebBrowserApp\\Page1.xaml.cs*",
+              "RelativeToolTip": "Page1.xaml.cs*",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAswJwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T17:17:28.317Z",
               "EditorCaption": ""

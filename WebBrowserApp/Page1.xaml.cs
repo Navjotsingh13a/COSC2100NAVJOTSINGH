@@ -52,6 +52,7 @@ namespace WebBrowserApp
         // Back button: Go to the previous page...
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
+            // Check if there is a previous page,  go back to the previous page...
             if (WebBrowserControl.CanGoBack)
                 WebBrowserControl.GoBack();
         }
@@ -59,6 +60,7 @@ namespace WebBrowserApp
         // Forward Button: Go forward to next page...
         private void ForwardButton_Click(object sender, RoutedEventArgs e)
         {
+            // Check if there is a next page, go forward to the next page...
             if (WebBrowserControl.CanGoForward)
                 WebBrowserControl.GoForward();
         }
@@ -73,6 +75,7 @@ namespace WebBrowserApp
         // Stop Button: Stop loading the current page...
         private void StopButton_Click(object sender, RoutedEventArgs e)
         {
+            // Stop loading the page...
             WebBrowserControl.InvokeScript("execScript", new object[] { "window.stop();" });
         }
 
@@ -85,6 +88,7 @@ namespace WebBrowserApp
         // Add a bookmark of the current page...
         private void AddBookmarkButton_Click(object sender, RoutedEventArgs e)
         {
+            // Get the current page URL...
             string url = WebBrowserControl.Source?.ToString();
             if (!string.IsNullOrWhiteSpace(url))
                 BookmarksList.Items.Add(url);
@@ -93,6 +97,7 @@ namespace WebBrowserApp
         // Go to the bookmark selected in the list...
         private void BookmarksList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            // Check if an item is selected, navigate to the selected bookmark...
             if (BookmarksList.SelectedItem != null)
                 NavigateToUrl(BookmarksList.SelectedItem.ToString());
         }
@@ -100,12 +105,15 @@ namespace WebBrowserApp
         // function to navigate to a URL....
         private void NavigateToUrl(string url)
         {
+            // Ensure URL is not empty...
             if (!string.IsNullOrWhiteSpace(url))
             {
+                // Check if URL starts with http or https...
                 if (!url.StartsWith("http://") && !url.StartsWith("https://"))
                     url = "http://" + url;
 
                 WebBrowserControl.Navigate(url);
+                // Update the address bar with the URL...
                 AddressBar.Text = url;
             }
         }
@@ -122,8 +130,10 @@ namespace WebBrowserApp
                 e.Cancel = true;
                 using (var client = new WebClient())
                 {
+                    // Get the file name from URL....
                     string fileName = new Uri(url).Segments.Last();
                     client.DownloadFile(url, fileName);
+                    // Show a message when download is complete...
                     MessageBox.Show($"Downloaded: {fileName}", "Download Complete");
                 }
             }
@@ -139,13 +149,19 @@ namespace WebBrowserApp
         // Handle completion of page load ...
         private void WebBrowserControl_LoadCompleted(object sender, System.Windows.Navigation.NavigationEventArgs e)
         {
+            // Prevent links from opening in a new window...
             WebBrowserControl.Navigating += (s, args) =>
             {
+                // If the link tries to open in a new window, cancel it ...
                 if (args.Uri != null && args.Uri.AbsoluteUri.Contains("newwindow"))
                 {
+                    // Cancel the navigation
                     args.Cancel = true;
+
+                    // Start a new process to open the URL in the default web browser...
                     System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
                     {
+                        // Open the URL in the default browser...
                         FileName = args.Uri.AbsoluteUri,
                         UseShellExecute = true
                     });
